@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "SET NODE_ENV=production&& node app.js --mode production",
+    "start": "NODE_ENV=production node app.js --mode production",
     "dev": "SET NODE_ENV=development&& nodemon app.js --mode development",
     "test": "SET NODE_ENV=development&& jest"
   },
